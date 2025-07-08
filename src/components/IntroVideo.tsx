@@ -13,7 +13,7 @@ const IntroVideo = ({ onFinish }: { onFinish: () => void }) => {
   return (
     <div className="fixed inset-0 bg-black flex items-center justify-center z-50">
       <video 
-        src="/videos/cholanadu intro.mp4" // Your video path
+        src="/cholanadu intro.mp4" // Your video path
         autoPlay 
         muted 
         className="w-full h-full object-cover"
