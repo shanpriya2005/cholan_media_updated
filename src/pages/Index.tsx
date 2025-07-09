@@ -24,7 +24,7 @@ const MediaHighlights = () => {
           },
           {
             Icon: Video,
-            title: "Advertisement",
+            title: "Advertising",
             desc: "Telling your story through compelling visuals.",
             gradient: "from-[#A66C2D] to-[#C28840]",
           },
@@ -58,13 +58,14 @@ const WhyChooseUs = () => (
   <section className="py-20 bg-card/30">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="lg:text-center">
-        <h2 className="text-4xl text-primary font-bold tracking-wide uppercase">
-          Why Cholanadu Media
-        </h2>
+       <h2 className="text-4xl text-foreground font-bold tracking-wide uppercase">
+  Why Cholanadu
+</h2>
 
-        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-foreground sm:text-4xl">
-          One Stop Solution for Advertising & Marketing
-        </p>
+<p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-primary sm:text-4xl">
+  One Stop Solution for Advertising & Marketing
+</p>
+
         <p className="mt-4 max-w-2xl text-xl italic text-black lg:mx-auto">
           Since 2008, we’ve been helping brands influence the masses by combining strategy, storytelling, and innovation.
         </p>
